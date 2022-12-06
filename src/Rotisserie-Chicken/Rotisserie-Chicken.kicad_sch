@@ -445,16 +445,13 @@
       (property "Value" "LED" (id 1) (at 11.43 -10.16 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Footprint" "" (id 2) (at 5.08 -9.144 0)
+      (property "Footprint" "Rotisserie-Chicken:LED" (id 2) (at 5.08 -9.144 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Datasheet" "" (id 3) (at 0 6.35 90)
         (effects (font (size 1.524 1.524)))
       )
-      (property "ki_locked" "" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_fp_filters" "LED_LTST-C150GKT_LTO LED_LTST-C150GKT_LTO-M LED_LTST-C150GKT_LTO-L" (id 5) (at 0 0 0)
+      (property "ki_fp_filters" "LED_LTST-C150GKT_LTO LED_LTST-C150GKT_LTO-M LED_LTST-C150GKT_LTO-L" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "LED_1_1"
@@ -766,7 +763,6 @@
       )
     )
   )
-
 
 
   (wire (pts (xy 185.42 84.455) (xy 185.42 86.36))
@@ -1140,7 +1136,7 @@
     (property "Value" "LED" (id 1) (at 191.2366 83.9449 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 190.5 91.059 0)
+    (property "Footprint" "Rotisserie-Chicken:LED" (id 2) (at 190.5 91.059 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 185.42 75.565 90)
@@ -1264,7 +1260,7 @@
       (reference "#PWR03") (unit 1) (value "Earth") (footprint "")
     )
     (path "/836be2cc-0648-4199-97ea-3b453b6d3878"
-      (reference "D1") (unit 1) (value "LED") (footprint "")
+      (reference "D1") (unit 1) (value "LED") (footprint "Rotisserie-Chicken:LED")
     )
     (path "/3f55e6d7-7f6d-4e6b-af8a-5d85d2fe0aa1"
       (reference "H1") (unit 1) (value "Mounting-Hole") (footprint "Rotisserie-Chicken:MountingHole_4.3mm_M4_DIN965")
