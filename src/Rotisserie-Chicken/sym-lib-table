@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Rotisserie_Chicken")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Rotisserie-Chicken-PCB/lib/Rotisserie_Chicken.kicad_sym")(options "")(descr ""))
+  (lib (name "Flight-Computer")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Flight-Computer/lib/Flight-Computer.kicad_sym")(options "")(descr ""))
+)
